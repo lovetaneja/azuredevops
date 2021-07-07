@@ -23,6 +23,6 @@ steps:
     
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(system.defaultworkingdirectory)/MicroService/target'
-    Contents: 'microservice-app-*.jar'
-    TargetFolder: '$(system.defaultworkingdirectory)/drop'
+    SourceFolder: '$(system.defaultworkingdirectory)'
+    Contents: '**/*.jar'
+    TargetFolder: '$(build.artifactstagingdirectory)/jars'
