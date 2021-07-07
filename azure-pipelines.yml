@@ -26,3 +26,5 @@ steps:
     SourceFolder: '$(system.defaultworkingdirectory)'
     Contents: '**/*.jar'
     TargetFolder: '$(build.artifactstagingdirectory)/jars'
+    
+- task: PublishBuildArtifacts@1
