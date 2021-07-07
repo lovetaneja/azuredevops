@@ -25,4 +25,4 @@ steps:
   inputs:
     SourceFolder: 'MicroService/target'
     Contents: 'microservice-app-0.0.1-SNAPSHOT.jar'
-    TargetFolder: 
+    TargetFolder: ''
